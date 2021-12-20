@@ -26,7 +26,16 @@ int APIENTRY wWinMain(_In_ HINSTANCE instance, _In_opt_ HINSTANCE prev,
 
   FlutterWindow window(project);
   Win32Window::Point origin(10, 10);
+  
+  // --------------------------------------------
+  //
+  //   CHANGE THE WINDOWS SIZE SETTINGS BELOW :-
+  //
   Win32Window::Size size(400, 650);
+  //
+  //
+  // --------------------------------------------
+  
   if (!window.CreateAndShow(L"desktop_app002", origin, size)) {
     return EXIT_FAILURE;
   }

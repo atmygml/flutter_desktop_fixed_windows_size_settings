@@ -1,0 +1,1 @@
+# flutter_desktop_fixed_windows_size_settings
